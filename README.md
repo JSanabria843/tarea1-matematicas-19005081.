@@ -82,6 +82,8 @@ function recommendProduct(age, isMember, purchaseHistory) {
 }
 
 // Ejemplo de uso
+
+
 console.log(recommendProduct(22, true, { tech: 6, fashion: 1, other: 2 }));   // "High-Tech Product"
 console.log(recommendProduct(28, false, { tech: 1, fashion: 2, other: 1 }));  // "Fashion Product"
 console.log(recommendProduct(45, false, { tech: 0, fashion: 0, other: 1 }));  // "Generic Product"
